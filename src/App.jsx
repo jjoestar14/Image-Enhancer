@@ -117,7 +117,7 @@ export default function App() {
               </svg>
             </div>
             <div>
-              <h1 className="app__title">LumiEnhance</h1>
+              <h1 className="app__title">Enhancia</h1>
               <p className="app__tagline">Low-Light Image Enhancer</p>
             </div>
           </div>
@@ -163,7 +163,7 @@ export default function App() {
                   </svg>
                 </div>
                 <h3>Auto Enhance</h3>
-                <p>Koreksi otomatis tanpa perlu edit manual</p>
+                <p>Tingkatkan kecerahan otomatis tanpa perlu edit manual</p>
               </div>
               <div className="app__feature-card">
                 <div className="app__feature-icon app__feature-icon--color">
@@ -176,7 +176,7 @@ export default function App() {
                   </svg>
                 </div>
                 <h3>Warna Natural</h3>
-                <p>Kecerahan naik tanpa merusak warna asli</p>
+                <p>Menaikan kecerahan tanpa merusak warna asli</p>
               </div>
               <div className="app__feature-card">
                 <div className="app__feature-icon app__feature-icon--privacy">
@@ -266,9 +266,7 @@ export default function App() {
       {/* Footer */}
       <footer className="app__footer">
         <p>
-          LumiEnhance — Semua pemrosesan gambar dilakukan di browser Anda.
-          <br />
-          Tidak ada foto yang dikirim ke server mana pun.
+          © 2026 Enhancia. All rights reserved.
         </p>
       </footer>
     </div>

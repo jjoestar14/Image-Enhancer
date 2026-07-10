@@ -4,7 +4,7 @@
 @import "tailwindcss";
 
 /* ══════════════════════════════════════════════════════════════
-   LumiEnhance — Design System & Component Styles
+   Enhancia — Design System & Component Styles
    Dark Theme | Glassmorphism | Gradient Accents
    ══════════════════════════════════════════════════════════════ */
 
@@ -328,7 +328,7 @@ body::before {
 
 .upload-zone {
   position: relative;
-  border: 2px dashed rgba(255, 255, 255, 0.12);
+  border: 2px dashed, #3b82f6;
   border-radius: var(--radius-xl);
   padding: 48px 32px;
   text-align: center;
@@ -343,17 +343,16 @@ body::before {
   content: '';
   position: absolute;
   inset: -2px;
-  border-radius: inherit;
-  background: linear-gradient(135deg, var(--color-accent-blue), var(--color-accent-purple), var(--color-accent-cyan));
+  border-radius:var(--color-accent-blue);
+  background: var(--color-accent-blue), #3b82f6;
   z-index: -1;
   opacity: 0;
-  transition: opacity 0.3s ease;
 }
 
 .upload-zone:hover,
 .upload-zone--dragging {
-  border-color: transparent;
-  background: rgba(255, 255, 255, 0.06);
+  border-color: var(--color-accent-blue);
+  background: rgba(59, 130, 246, 0.05);
   transform: scale(1.01);
 }
 
@@ -364,9 +363,7 @@ body::before {
 
 /* Re-apply bg inside to create border effect */
 .upload-zone:hover,
-.upload-zone--dragging {
-  box-shadow: var(--shadow-glow);
-}
+.upload-zone--dragging
 
 .upload-zone--dragging {
   transform: scale(1.03);
@@ -383,9 +380,16 @@ body::before {
 }
 
 .upload-zone__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 72px;
+  height: 72px;
+  margin: 0 auto 16px;
+  border-radius: var(--radius-lg);
+  background: var(--color-bg-surface);
   color: var(--color-text-muted);
-  margin-bottom: 16px;
-  transition: color 0.3s ease, transform 0.3s ease;
+  transition: background 0.3s ease, color 0.3s ease, transform 0.3s ease;
 }
 
 .upload-zone:hover .upload-zone__icon,
