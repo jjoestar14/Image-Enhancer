@@ -6,6 +6,8 @@ import CompareView from './components/CompareView';
 import DownloadButton from './components/DownloadButton';
 import { calculateAverageBrightness, calculateOptimalGamma } from './utils/histogram';
 
+
+
 export default function App() {
   // Image state
   const [originalImage, setOriginalImage] = useState(null);
@@ -110,22 +112,8 @@ export default function App() {
         <div className="app__header-inner">
           <div className="app__logo">
             <div className="app__logo-icon">
-              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="url(#logo-grad)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                <defs>
-                  <linearGradient id="logo-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-                    <stop offset="0%" stopColor="#3b82f6" />
-                    <stop offset="100%" stopColor="#a855f7" />
-                  </linearGradient>
-                </defs>
-                <circle cx="12" cy="12" r="5" />
-                <line x1="12" y1="1" x2="12" y2="3" />
-                <line x1="12" y1="21" x2="12" y2="23" />
-                <line x1="4.22" y1="4.22" x2="5.64" y2="5.64" />
-                <line x1="18.36" y1="18.36" x2="19.78" y2="19.78" />
-                <line x1="1" y1="12" x2="3" y2="12" />
-                <line x1="21" y1="12" x2="23" y2="12" />
-                <line x1="4.22" y1="19.78" x2="5.64" y2="18.36" />
-                <line x1="18.36" y1="5.64" x2="19.78" y2="4.22" />
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#a855f7" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-moon">
+                <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/>
               </svg>
             </div>
             <div>
