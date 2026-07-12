@@ -30,7 +30,7 @@
   --color-border: rgba(255, 255, 255, 0.08);
   --color-border-accent: rgba(168, 85, 247, 0.3);
 
-  --shadow-glow: 0 0 40px rgba(59, 130, 246, 0.15), 0 0 80px rgba(168, 85, 247, 0.08);
+  --shadow-glow: 0 0 40px rgba(168, 85, 247, 0.20), 0 0 80px rgba(192, 132, 252, 0.10);
   --shadow-card: 0 4px 24px rgba(0, 0, 0, 0.4);
   --shadow-button: 0 4px 16px rgba(59, 130, 246, 0.3);
 
@@ -328,7 +328,7 @@ body::before {
 
 .upload-zone {
   position: relative;
-  border: 2px dashed, #3b82f6;
+  border: 2px dashed, #a855f7;
   border-radius: var(--radius-xl);
   padding: 48px 32px;
   text-align: center;
@@ -343,16 +343,16 @@ body::before {
   content: '';
   position: absolute;
   inset: -2px;
-  border-radius:var(--color-accent-blue);
-  background: var(--color-accent-blue), #3b82f6;
+  border-radius:var(--color-accent-purple);
+  background: var(--color-accent-purple), #a855f7;
   z-index: -1;
   opacity: 0;
 }
 
 .upload-zone:hover,
 .upload-zone--dragging {
-  border-color: var(--color-accent-blue);
-  background: rgba(59, 130, 246, 0.05);
+  border-color: var(--color-accent-purple);
+  background: rgba(168, 85, 247, 0.05);
   transform: scale(1.01);
 }
 
@@ -363,7 +363,9 @@ body::before {
 
 /* Re-apply bg inside to create border effect */
 .upload-zone:hover,
-.upload-zone--dragging
+.upload-zone--dragging {
+  box-shadow: 0 0 40px rgba(168, 85, 247, 0.20), 0 0 80px rgba(192, 132, 252, 0.10);
+}
 
 .upload-zone--dragging {
   transform: scale(1.03);
