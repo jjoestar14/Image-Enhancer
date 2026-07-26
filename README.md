@@ -157,4 +157,6 @@ Project ini dibuat untuk keperluan pembelajaran dan penelitian. Bebas digunakan,
 
 Developed by **Muhamad Jakaria**
 
+Universitas Catur Insan Cendekia
+
 Program Studi Teknik Informatika
