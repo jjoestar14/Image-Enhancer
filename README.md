@@ -1,16 +1,162 @@
-# React + Vite
+# Enhancia - Low Light Image Enhancer
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Enhancia adalah aplikasi web berbasis **React** dan **Vite** yang digunakan untuk meningkatkan kualitas gambar yang diambil pada kondisi pencahayaan rendah (low-light). Aplikasi ini menerapkan metode **Gamma Correction** untuk meningkatkan kecerahan gambar tanpa mengubah detail secara berlebihan.
 
-Currently, two official plugins are available:
+## Preview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+> Upload gambar → Atur nilai Gamma → Bandingkan hasil sebelum & sesudah → Download hasil.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Fitur
 
-## Expanding the Oxlint configuration
+- 📤 Upload gambar (JPG, JPEG, PNG)
+- 🌙 Peningkatan pencahayaan menggunakan **Gamma Correction**
+- 🎚️ Slider untuk mengatur nilai Gamma
+- 🔍 Perbandingan gambar Before & After
+- 💾 Download hasil gambar
+- ⚡ Proses langsung di browser (Client-side)
+- 📱 Responsive Design
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+---
+
+## 🛠️ Teknologi
+
+- React 19
+- Vite
+- Tailwind CSS
+- HTML5 Canvas API
+- Lucide React
+- React Compare Image
+
+---
+
+## 📂 Struktur Project
+
+```
+image-enhancer/
+│
+├── public/
+│   ├── favicon.png
+│   └── icons.svg
+│
+├── src/
+│   ├── components/
+│   │   ├── CompareView.jsx
+│   │   ├── DownloadButton.jsx
+│   │   ├── GammaSlider.jsx
+│   │   ├── ImageCanvas.jsx
+│   │   └── UploadZone.jsx
+│   │
+│   ├── utils/
+│   │   ├── gammaCorrection.js
+│   │   └── histogram.js
+│   │
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+│
+├── package.json
+└── vite.config.js
+```
+
+---
+
+## 🚀 Instalasi
+
+Clone repository
+
+```bash
+git clone https://github.com/username/image-enhancer.git
+```
+
+Masuk ke folder project
+
+```bash
+cd image-enhancer
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Jalankan project
+
+```bash
+npm run dev
+```
+
+Build production
+
+```bash
+npm run build
+```
+
+Preview hasil build
+
+```bash
+npm run preview
+```
+
+---
+
+## 📖 Cara Penggunaan
+
+1. Jalankan aplikasi.
+2. Upload gambar dengan kondisi pencahayaan rendah.
+3. Atur nilai **Gamma** menggunakan slider.
+4. Bandingkan hasil sebelum dan sesudah.
+5. Download gambar yang telah ditingkatkan.
+
+---
+
+## 🧠 Metode yang Digunakan
+
+### Gamma Correction
+
+Gamma Correction merupakan teknik pengolahan citra yang digunakan untuk memperbaiki tingkat kecerahan gambar dengan transformasi non-linear.
+
+Persamaan:
+
+```
+S = C × R^γ
+```
+
+Keterangan:
+
+- **S** = nilai piksel keluaran
+- **R** = nilai piksel masukan (0–1)
+- **γ (gamma)** = faktor koreksi
+- **C** = konstanta (biasanya 1)
+
+Jika:
+
+- γ < 1 → gambar menjadi lebih terang
+- γ > 1 → gambar menjadi lebih gelap
+
+---
+
+## 📦 Dependencies
+
+- React
+- React DOM
+- Tailwind CSS
+- React Compare Image
+- Lucide React
+- Vite
+
+---
+
+## 📄 License
+
+Project ini dibuat untuk keperluan pembelajaran dan penelitian. Bebas digunakan, dimodifikasi, dan dikembangkan lebih lanjut.
+
+---
+
+## 👨‍💻 Developer
+
+Developed by **Muhamad Jakaria**
+
+Program Studi Teknik Informatika
