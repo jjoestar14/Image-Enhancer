@@ -8,7 +8,7 @@ Enhancia adalah aplikasi web berbasis **React** dan **Vite** yang digunakan untu
 
 ---
 
-## ✨ Fitur
+## Fitur
 
 -  Upload gambar (JPG, JPEG, PNG)
 -  Peningkatan pencahayaan menggunakan **Gamma Correction**
@@ -20,7 +20,7 @@ Enhancia adalah aplikasi web berbasis **React** dan **Vite** yang digunakan untu
 
 ---
 
-## 🛠️ Teknologi
+## Tech Stack
 
 - React 19
 - Vite
@@ -31,7 +31,7 @@ Enhancia adalah aplikasi web berbasis **React** dan **Vite** yang digunakan untu
 
 ---
 
-## 📂 Struktur Project
+## Struktur Project
 
 ```
 image-enhancer/
@@ -62,12 +62,12 @@ image-enhancer/
 
 ---
 
-## 🚀 Instalasi
+## Instalasi
 
 Clone repository
 
 ```bash
-git clone https://github.com/username/image-enhancer.git
+git clone https://github.com/jjoestar14/image-enhancer.git
 ```
 
 Masuk ke folder project
@@ -102,7 +102,7 @@ npm run preview
 
 ---
 
-## 📖 Cara Penggunaan
+## Cara Penggunaan
 
 1. Jalankan aplikasi.
 2. Upload gambar dengan kondisi pencahayaan rendah.
@@ -112,7 +112,7 @@ npm run preview
 
 ---
 
-## 🧠 Metode yang Digunakan
+## Metode yang Digunakan
 
 ### Gamma Correction
 
@@ -138,7 +138,7 @@ Jika:
 
 ---
 
-## 📦 Dependencies
+## Dependencies
 
 - React
 - React DOM
@@ -146,17 +146,3 @@ Jika:
 - React Compare Image
 - Lucide React
 - Vite
-
----
-
-## 📄 License
-
-Project ini dibuat untuk keperluan pembelajaran dan penelitian. Bebas digunakan, dimodifikasi, dan dikembangkan lebih lanjut.
-
----
-
-## 👨‍💻 Developer
-
-Developed by **Muhamad Jakaria**
-
-Program Studi Teknik Informatika
