@@ -146,3 +146,15 @@ Jika:
 - React Compare Image
 - Lucide React
 - Vite
+
+## License
+
+Project ini dibuat untuk keperluan pembelajaran dan penelitian. Bebas digunakan, dimodifikasi, dan dikembangkan lebih lanjut.
+
+---
+
+## Developer
+
+Developed by **Muhamad Jakaria**
+
+Program Studi Teknik Informatika
