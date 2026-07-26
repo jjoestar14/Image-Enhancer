@@ -10,13 +10,13 @@ Enhancia adalah aplikasi web berbasis **React** dan **Vite** yang digunakan untu
 
 ## ✨ Fitur
 
-- 📤 Upload gambar (JPG, JPEG, PNG)
-- 🌙 Peningkatan pencahayaan menggunakan **Gamma Correction**
-- 🎚️ Slider untuk mengatur nilai Gamma
-- 🔍 Perbandingan gambar Before & After
-- 💾 Download hasil gambar
-- ⚡ Proses langsung di browser (Client-side)
-- 📱 Responsive Design
+-  Upload gambar (JPG, JPEG, PNG)
+-  Peningkatan pencahayaan menggunakan **Gamma Correction**
+-  Slider untuk mengatur nilai Gamma
+-  Perbandingan gambar Before & After
+-  Download hasil gambar
+-  Proses langsung di browser (Client-side)
+-  Responsive Design
 
 ---
 
